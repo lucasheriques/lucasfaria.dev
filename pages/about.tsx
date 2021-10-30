@@ -7,11 +7,9 @@ const Home: NextPage = () => {
     <>
       <Header />
       <main>
-        <h1 className="text-4xl mb-2">About</h1>
-        <h2 className="text-xl mb-4 text-gray-300">
-          Some history about myself
-        </h2>
-        <p className="text-gray-400">
+        <h1 className="mb-2">About</h1>
+        <h2 className="mb-4 dark:text-gray-200">Some history about myself</h2>
+        <p className="dark:text-gray-300">
           I deeply enjoy reading fantasy books, specially the ones with great
           world building and romance. I speak Portuguese and English. I love
           frontend engineering, and have a passion for animations and cute

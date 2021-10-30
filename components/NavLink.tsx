@@ -7,7 +7,7 @@ interface NavLinkProps {
 }
 
 function NavLink({
-  activeClassName = "text-white",
+  activeClassName = "dark:text-white font-bold",
   children,
   ...props
 }: NavLinkProps & LinkProps) {
@@ -17,8 +17,8 @@ function NavLink({
   return (
     <Link {...props}>
       <span
-        className={`cursor-pointer ${
-          isActive ? activeClassName : "text-gray-400"
+        className={`cursor-pointer -mx-3 py-2 px-3 rounded-md dark:hover:bg-gray-800  hover:bg-gray-200 transition-all ${
+          isActive ? activeClassName : "dark:text-gray-400 text-gray-400"
         }`}
       >
         {children}
