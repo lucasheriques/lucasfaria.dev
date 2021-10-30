@@ -1,5 +1,6 @@
 import { useTheme } from "next-themes";
 import Link from "next/link";
+import NavLink from "./NavLink";
 
 function DarkModeToggle() {
   const { theme, setTheme } = useTheme();
@@ -48,9 +49,9 @@ function Header() {
     <div className="mb-16">
       <nav className="flex flex-row items-center justify-between space-x-8">
         <div className="space-x-8">
-          <Link href="/">Home</Link>
-          <Link href="/blog">Blog</Link>
-          <Link href="/about">About</Link>
+          <NavLink href="/">Home</NavLink>
+          <NavLink href="/blog">Blog</NavLink>
+          <NavLink href="/about">About</NavLink>
         </div>
         <DarkModeToggle />
       </nav>
