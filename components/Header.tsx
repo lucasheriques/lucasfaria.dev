@@ -49,8 +49,8 @@ function Header() {
       <nav className="flex flex-row items-center justify-between space-x-8">
         <div className="space-x-8">
           <Link href="/">Home</Link>
-          <Link href="/">Blog</Link>
-          <Link href="/">About</Link>
+          <Link href="/blog">Blog</Link>
+          <Link href="/about">About</Link>
         </div>
         <DarkModeToggle />
       </nav>
