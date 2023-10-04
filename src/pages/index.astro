@@ -1,14 +1,8 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
 
-import Header from '~/components/widgets/Header.astro';
 import Hero from '~/components/widgets/Hero.astro';
-import Content from '~/components/widgets/Content.astro';
-import CallToAction from '~/components/widgets/CallToAction.astro';
-import Features3 from '~/components/widgets/Features3.astro';
-import Testimonials from '~/components/widgets/Testimonials.astro';
-import Steps from '~/components/widgets/Steps.astro';
-import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
+
 import { Icon } from 'astro-icon/components';
 
 const metadata = {
@@ -17,6 +11,7 @@ const metadata = {
 
 const socialLinks = [
   { ariaLabel: 'Email', icon: 'tabler:mail', href: 'mailto:hi@lucasfaria.dev' },
+  { ariaLabel: 'Twitch', icon: 'tabler:brand-twitch', href: 'https://twitch.tv/lucasfariadev' },
   { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/lucasheriques' },
   { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: 'https://instagram.com/lucasfaria.dev' },
   { ariaLabel: 'TikTok', icon: 'tabler:brand-tiktok', href: 'https://www.tiktok.com/@lucasfaria.dev' },
